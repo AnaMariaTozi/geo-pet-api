@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/GeoPetApi/GeoPetApi.csproj": {}
+    "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/src/GeoPetApi/GeoPetApi.csproj": {}
   },
   "projects": {
-    "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/GeoPetApi/GeoPetApi.csproj": {
+    "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/src/GeoPetApi/GeoPetApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/GeoPetApi/GeoPetApi.csproj",
+        "projectUniqueName": "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/src/GeoPetApi/GeoPetApi.csproj",
         "projectName": "GeoPetApi",
-        "projectPath": "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/GeoPetApi/GeoPetApi.csproj",
+        "projectPath": "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/src/GeoPetApi/GeoPetApi.csproj",
         "packagesPath": "/home/ana/.nuget/packages/",
-        "outputPath": "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/GeoPetApi/obj/",
+        "outputPath": "/home/ana/repositorios/acc-c#/desafio-final/geo-pet-api/src/GeoPetApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ana/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentAssertions.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
